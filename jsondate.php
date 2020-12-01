@@ -10,6 +10,7 @@
     // using array
         $date =array ("date" => date('d-m-Y'));
         echo json_encode($date);
+        echo "hello";
         echo "<br>";
 
     // using object
