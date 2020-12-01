@@ -11,9 +11,9 @@
         $date =array ("date" => date('d-m-Y'));
         echo json_encode($date);
         echo "hello";
-        // echo "hello world";
+        echo "hello world";
         echo "<br>";
-
+        echo "<br>";
     // using object
         echo json_encode($date,JSON_FORCE_OBJECT);
 
